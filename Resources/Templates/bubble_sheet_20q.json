@@ -1,0 +1,841 @@
+{
+  "id": "6B12362E-3463-4231-B8EA-F47BF28B687C",
+  "name": "Bubble Sheet 20Q (A-D)",
+  "createdAt": "2026-08-30T00:00:00Z",
+  "referenceSize": {
+    "width": 1240,
+    "height": 1754
+  },
+  "alignmentFrame": {
+    "x": 0.032258,
+    "y": 0.022805,
+    "width": 0.935484,
+    "height": 0.95439
+  },
+  "cornerMarkers": {
+    "topLeft": {
+      "x": 0.048387,
+      "y": 0.034208
+    },
+    "topRight": {
+      "x": 0.951613,
+      "y": 0.034208
+    },
+    "bottomLeft": {
+      "x": 0.048387,
+      "y": 0.965792
+    },
+    "bottomRight": {
+      "x": 0.951613,
+      "y": 0.965792
+    }
+  },
+  "studentInfoFields": [
+    {
+      "id": "11A20FFC-8686-4FB7-BD99-B00E1FF60432",
+      "key": "studentName",
+      "displayName": "Name",
+      "rect": {
+        "x": 0.201613,
+        "y": 0.081528,
+        "width": 0.733871,
+        "height": 0.025086
+      }
+    },
+    {
+      "id": "F7CE4886-E83E-4087-A32B-D753BCA90188",
+      "key": "studentId",
+      "displayName": "ID",
+      "rect": {
+        "x": 0.233871,
+        "y": 0.112885,
+        "width": 0.306452,
+        "height": 0.025086
+      }
+    }
+  ],
+  "bubbleDiameter": 0.017368,
+  "fillThreshold": 0.45,
+  "questionGroups": [
+    {
+      "id": "9F73AAC5-E24B-4D4F-B347-F1331A59ECC5",
+      "questionNumber": 1,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "C3F9D259-BA89-49B5-8AE3-C1E7AD2DAA83",
+          "label": "A",
+          "center": {
+            "x": 0.116935,
+            "y": 0.188141
+          }
+        },
+        {
+          "id": "E23C1BE5-DBC2-4E6C-BDE0-4063FC9BC7D5",
+          "label": "B",
+          "center": {
+            "x": 0.154032,
+            "y": 0.188141
+          }
+        },
+        {
+          "id": "E23F212C-07A2-4C74-9830-E4CA00164D4B",
+          "label": "C",
+          "center": {
+            "x": 0.191129,
+            "y": 0.188141
+          }
+        },
+        {
+          "id": "6E176C60-9984-4DAD-87E7-FDA803BC08F8",
+          "label": "D",
+          "center": {
+            "x": 0.228226,
+            "y": 0.188141
+          }
+        }
+      ]
+    },
+    {
+      "id": "C9F145BC-AE09-4EAC-A02F-C329A8EBC401",
+      "questionNumber": 2,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "2CADC4A4-0D22-465C-9A3B-3E2A4D9641B2",
+          "label": "A",
+          "center": {
+            "x": 0.116935,
+            "y": 0.223489
+          }
+        },
+        {
+          "id": "06BA867D-A904-49FD-B08D-A12ECE0C0666",
+          "label": "B",
+          "center": {
+            "x": 0.154032,
+            "y": 0.223489
+          }
+        },
+        {
+          "id": "26C39CD5-0DE6-4F77-AA7D-3790EDB2E3C5",
+          "label": "C",
+          "center": {
+            "x": 0.191129,
+            "y": 0.223489
+          }
+        },
+        {
+          "id": "137628ED-49DC-4320-88DC-D9930345066B",
+          "label": "D",
+          "center": {
+            "x": 0.228226,
+            "y": 0.223489
+          }
+        }
+      ]
+    },
+    {
+      "id": "CEAF2D76-B927-42F2-BA3B-AC47B0F0AA27",
+      "questionNumber": 3,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "521712EF-271A-4E67-B82E-058192C5015C",
+          "label": "A",
+          "center": {
+            "x": 0.116935,
+            "y": 0.258837
+          }
+        },
+        {
+          "id": "2ED977C8-CCA5-407C-8F1E-87BF05742130",
+          "label": "B",
+          "center": {
+            "x": 0.154032,
+            "y": 0.258837
+          }
+        },
+        {
+          "id": "7397D7DD-DFA7-4286-840A-B4BC7C1A74B6",
+          "label": "C",
+          "center": {
+            "x": 0.191129,
+            "y": 0.258837
+          }
+        },
+        {
+          "id": "FF4DB0D9-D786-4626-822D-8DF3DFB64DA4",
+          "label": "D",
+          "center": {
+            "x": 0.228226,
+            "y": 0.258837
+          }
+        }
+      ]
+    },
+    {
+      "id": "309769A7-7891-4F52-8496-702756C78E02",
+      "questionNumber": 4,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "70C6884F-FCA0-47FB-8943-C9C5FC57AD68",
+          "label": "A",
+          "center": {
+            "x": 0.116935,
+            "y": 0.294185
+          }
+        },
+        {
+          "id": "CF11B3AE-FD64-4DED-8455-70088E29BD0E",
+          "label": "B",
+          "center": {
+            "x": 0.154032,
+            "y": 0.294185
+          }
+        },
+        {
+          "id": "FC1B9CF8-9D15-4A49-A6B9-8A9A37A8E9D0",
+          "label": "C",
+          "center": {
+            "x": 0.191129,
+            "y": 0.294185
+          }
+        },
+        {
+          "id": "EFC0D433-0526-4B52-96FB-F4969A443AB8",
+          "label": "D",
+          "center": {
+            "x": 0.228226,
+            "y": 0.294185
+          }
+        }
+      ]
+    },
+    {
+      "id": "BA15F145-B54D-42DB-973B-4559B037F3B2",
+      "questionNumber": 5,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "1AF766D0-227B-49FE-B641-18891D37BCBF",
+          "label": "A",
+          "center": {
+            "x": 0.116935,
+            "y": 0.329532
+          }
+        },
+        {
+          "id": "4C33353C-2FA5-44C5-A109-E270CC1CA8E2",
+          "label": "B",
+          "center": {
+            "x": 0.154032,
+            "y": 0.329532
+          }
+        },
+        {
+          "id": "21C07CAD-3159-478D-8D26-6AA17E67573F",
+          "label": "C",
+          "center": {
+            "x": 0.191129,
+            "y": 0.329532
+          }
+        },
+        {
+          "id": "BC12E637-C3B5-4EB5-96B1-4C4D31742E30",
+          "label": "D",
+          "center": {
+            "x": 0.228226,
+            "y": 0.329532
+          }
+        }
+      ]
+    },
+    {
+      "id": "ECE634EF-A7BD-4AF2-9429-DC22DA68BD33",
+      "questionNumber": 6,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "039B1473-8F0C-4698-A2D8-72BB5DD51370",
+          "label": "A",
+          "center": {
+            "x": 0.116935,
+            "y": 0.36488
+          }
+        },
+        {
+          "id": "E97AC10B-CB81-4506-8841-526A98064C2A",
+          "label": "B",
+          "center": {
+            "x": 0.154032,
+            "y": 0.36488
+          }
+        },
+        {
+          "id": "4E528CCA-9342-4EA5-A626-9F96809BFC47",
+          "label": "C",
+          "center": {
+            "x": 0.191129,
+            "y": 0.36488
+          }
+        },
+        {
+          "id": "32256134-6307-4379-9106-908254B71B50",
+          "label": "D",
+          "center": {
+            "x": 0.228226,
+            "y": 0.36488
+          }
+        }
+      ]
+    },
+    {
+      "id": "A33EAF14-214F-49E6-B363-7D90A2579B7D",
+      "questionNumber": 7,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "793A1F26-0946-43A5-8D77-11726366FEBF",
+          "label": "A",
+          "center": {
+            "x": 0.116935,
+            "y": 0.400228
+          }
+        },
+        {
+          "id": "3E0114CA-89B5-434E-8A11-D3C2D824BF6C",
+          "label": "B",
+          "center": {
+            "x": 0.154032,
+            "y": 0.400228
+          }
+        },
+        {
+          "id": "FAD1821C-4682-4D26-B9A2-287EB1A30B19",
+          "label": "C",
+          "center": {
+            "x": 0.191129,
+            "y": 0.400228
+          }
+        },
+        {
+          "id": "FA79F27E-8C9C-467F-BF8C-EDE8BFBACAAD",
+          "label": "D",
+          "center": {
+            "x": 0.228226,
+            "y": 0.400228
+          }
+        }
+      ]
+    },
+    {
+      "id": "F8ED850E-6380-48AD-B06E-0821C9D73443",
+      "questionNumber": 8,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "D48ED38A-73C6-47AD-A497-594864636670",
+          "label": "A",
+          "center": {
+            "x": 0.116935,
+            "y": 0.435576
+          }
+        },
+        {
+          "id": "25461CC2-71A5-43FA-8267-94E81D9421F6",
+          "label": "B",
+          "center": {
+            "x": 0.154032,
+            "y": 0.435576
+          }
+        },
+        {
+          "id": "A53A7C06-BDE1-4225-BF1C-E58710D2F2CC",
+          "label": "C",
+          "center": {
+            "x": 0.191129,
+            "y": 0.435576
+          }
+        },
+        {
+          "id": "149138E0-6E06-425B-9FBD-A7BD18373895",
+          "label": "D",
+          "center": {
+            "x": 0.228226,
+            "y": 0.435576
+          }
+        }
+      ]
+    },
+    {
+      "id": "23A528A4-31F6-4D6E-BFC6-D8E049816C79",
+      "questionNumber": 9,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "E60123BE-B369-4721-AA7A-ADD147E7DDD7",
+          "label": "A",
+          "center": {
+            "x": 0.116935,
+            "y": 0.470924
+          }
+        },
+        {
+          "id": "A97E87EE-FCFF-4182-A78D-A0075A171886",
+          "label": "B",
+          "center": {
+            "x": 0.154032,
+            "y": 0.470924
+          }
+        },
+        {
+          "id": "2A5BC12C-C203-4E3E-BF98-4643F84D788F",
+          "label": "C",
+          "center": {
+            "x": 0.191129,
+            "y": 0.470924
+          }
+        },
+        {
+          "id": "9CC606A8-7B87-4DBA-A2DD-2AAAF684BA69",
+          "label": "D",
+          "center": {
+            "x": 0.228226,
+            "y": 0.470924
+          }
+        }
+      ]
+    },
+    {
+      "id": "CA3DE171-48EC-4158-AB63-A9FFA9077B28",
+      "questionNumber": 10,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "727FF2BF-1DFE-46D6-96B4-E6E10E600C65",
+          "label": "A",
+          "center": {
+            "x": 0.116935,
+            "y": 0.506271
+          }
+        },
+        {
+          "id": "8BAAE459-55F5-4037-A8DD-C36D83DEEC0E",
+          "label": "B",
+          "center": {
+            "x": 0.154032,
+            "y": 0.506271
+          }
+        },
+        {
+          "id": "34881BCA-3467-4E55-9DAA-EBF55DE169C3",
+          "label": "C",
+          "center": {
+            "x": 0.191129,
+            "y": 0.506271
+          }
+        },
+        {
+          "id": "EB96CDB7-3956-4F63-8A0B-7C6F941C8D4E",
+          "label": "D",
+          "center": {
+            "x": 0.228226,
+            "y": 0.506271
+          }
+        }
+      ]
+    },
+    {
+      "id": "878B6D8D-076C-4A2E-BDE1-D5CD3175D70C",
+      "questionNumber": 11,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "AC9651D7-899A-4CD1-A1AC-B461B786C58D",
+          "label": "A",
+          "center": {
+            "x": 0.568548,
+            "y": 0.188141
+          }
+        },
+        {
+          "id": "6F926631-FE39-40DB-BCB9-BD1BB201ECBB",
+          "label": "B",
+          "center": {
+            "x": 0.605645,
+            "y": 0.188141
+          }
+        },
+        {
+          "id": "E78675FD-3F44-48B7-AC60-71FFC7DECA2C",
+          "label": "C",
+          "center": {
+            "x": 0.642742,
+            "y": 0.188141
+          }
+        },
+        {
+          "id": "32B64426-C234-4A52-B249-363426B3FD0A",
+          "label": "D",
+          "center": {
+            "x": 0.679839,
+            "y": 0.188141
+          }
+        }
+      ]
+    },
+    {
+      "id": "DEE52786-CAC6-4B78-8B78-D9A3D6018C9C",
+      "questionNumber": 12,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "A48DA12A-B988-4242-9627-C02AE86A9F30",
+          "label": "A",
+          "center": {
+            "x": 0.568548,
+            "y": 0.223489
+          }
+        },
+        {
+          "id": "3FEC7CDF-062A-43EB-9AC1-A707F612CCCB",
+          "label": "B",
+          "center": {
+            "x": 0.605645,
+            "y": 0.223489
+          }
+        },
+        {
+          "id": "62BFDB2A-85BD-40D5-85D2-897DA2A6120A",
+          "label": "C",
+          "center": {
+            "x": 0.642742,
+            "y": 0.223489
+          }
+        },
+        {
+          "id": "D450DDF0-832D-4E85-9F48-9744F0D141F5",
+          "label": "D",
+          "center": {
+            "x": 0.679839,
+            "y": 0.223489
+          }
+        }
+      ]
+    },
+    {
+      "id": "C6D89AB1-3F38-4C1D-A975-3BA8E88E90AE",
+      "questionNumber": 13,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "97104DB3-5494-487E-9B17-9ED477FBF8CF",
+          "label": "A",
+          "center": {
+            "x": 0.568548,
+            "y": 0.258837
+          }
+        },
+        {
+          "id": "2AF98813-8913-4308-928A-AA95D6817203",
+          "label": "B",
+          "center": {
+            "x": 0.605645,
+            "y": 0.258837
+          }
+        },
+        {
+          "id": "86FB5ADA-939F-44B9-9AD1-08FE95637368",
+          "label": "C",
+          "center": {
+            "x": 0.642742,
+            "y": 0.258837
+          }
+        },
+        {
+          "id": "D13B8FAC-1462-4899-A974-7C5DBE5A5108",
+          "label": "D",
+          "center": {
+            "x": 0.679839,
+            "y": 0.258837
+          }
+        }
+      ]
+    },
+    {
+      "id": "970370CC-8F0C-4105-9020-73647AA43849",
+      "questionNumber": 14,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "C06517E0-6CD8-4225-A9FB-62373B356E4E",
+          "label": "A",
+          "center": {
+            "x": 0.568548,
+            "y": 0.294185
+          }
+        },
+        {
+          "id": "FB817B16-2017-441B-92E1-4DBC9F92E457",
+          "label": "B",
+          "center": {
+            "x": 0.605645,
+            "y": 0.294185
+          }
+        },
+        {
+          "id": "730FAAA5-BC17-4EB0-BCE8-4EB2469DB499",
+          "label": "C",
+          "center": {
+            "x": 0.642742,
+            "y": 0.294185
+          }
+        },
+        {
+          "id": "951C7713-44B8-4217-865C-0A5A3E0F8438",
+          "label": "D",
+          "center": {
+            "x": 0.679839,
+            "y": 0.294185
+          }
+        }
+      ]
+    },
+    {
+      "id": "9F65C3C6-F8F1-4D66-BE39-E3128318FFF0",
+      "questionNumber": 15,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "103E0880-2821-4A7E-9ACA-C4CB081E8121",
+          "label": "A",
+          "center": {
+            "x": 0.568548,
+            "y": 0.329532
+          }
+        },
+        {
+          "id": "DA713398-2AE8-4268-BF55-C460C43F31C7",
+          "label": "B",
+          "center": {
+            "x": 0.605645,
+            "y": 0.329532
+          }
+        },
+        {
+          "id": "B42873EB-A491-43B1-BCC6-51FCB6A776C3",
+          "label": "C",
+          "center": {
+            "x": 0.642742,
+            "y": 0.329532
+          }
+        },
+        {
+          "id": "6A625896-6078-4F8B-BA3B-2819AE3B2AE4",
+          "label": "D",
+          "center": {
+            "x": 0.679839,
+            "y": 0.329532
+          }
+        }
+      ]
+    },
+    {
+      "id": "A431A38A-5428-4522-96FA-069AD2E8A45E",
+      "questionNumber": 16,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "6AAB93D6-854D-4369-979B-78748FB1D13E",
+          "label": "A",
+          "center": {
+            "x": 0.568548,
+            "y": 0.36488
+          }
+        },
+        {
+          "id": "70591FB2-0873-432E-9EC3-2C222BB8BD00",
+          "label": "B",
+          "center": {
+            "x": 0.605645,
+            "y": 0.36488
+          }
+        },
+        {
+          "id": "C9E999B0-6614-4903-AB56-B01EB32523AF",
+          "label": "C",
+          "center": {
+            "x": 0.642742,
+            "y": 0.36488
+          }
+        },
+        {
+          "id": "A5449788-BA76-4545-9F2A-7895DD6B710B",
+          "label": "D",
+          "center": {
+            "x": 0.679839,
+            "y": 0.36488
+          }
+        }
+      ]
+    },
+    {
+      "id": "B1D65DD5-D64E-4180-9620-29EDF81FC9A3",
+      "questionNumber": 17,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "114DE60C-83FA-4330-A5DC-09D2D3CEAD63",
+          "label": "A",
+          "center": {
+            "x": 0.568548,
+            "y": 0.400228
+          }
+        },
+        {
+          "id": "E4592EF8-572B-47E3-9F6D-C3228459AA75",
+          "label": "B",
+          "center": {
+            "x": 0.605645,
+            "y": 0.400228
+          }
+        },
+        {
+          "id": "C8300822-E772-43A7-B28D-9D63E873CBA2",
+          "label": "C",
+          "center": {
+            "x": 0.642742,
+            "y": 0.400228
+          }
+        },
+        {
+          "id": "7F331F2B-2514-4A96-8A68-61FA06F1B765",
+          "label": "D",
+          "center": {
+            "x": 0.679839,
+            "y": 0.400228
+          }
+        }
+      ]
+    },
+    {
+      "id": "54CB3AD9-3FE5-4101-A9BB-8240DA0E51A0",
+      "questionNumber": 18,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "5B27CB43-571E-4BC5-89DF-E74C039A23D5",
+          "label": "A",
+          "center": {
+            "x": 0.568548,
+            "y": 0.435576
+          }
+        },
+        {
+          "id": "AE8D888E-7299-474F-8626-26B1253811F5",
+          "label": "B",
+          "center": {
+            "x": 0.605645,
+            "y": 0.435576
+          }
+        },
+        {
+          "id": "8645F689-28E1-417E-B393-B090763B5A6F",
+          "label": "C",
+          "center": {
+            "x": 0.642742,
+            "y": 0.435576
+          }
+        },
+        {
+          "id": "8CDD3142-77F3-4527-A69F-B40BE1799AE5",
+          "label": "D",
+          "center": {
+            "x": 0.679839,
+            "y": 0.435576
+          }
+        }
+      ]
+    },
+    {
+      "id": "C2DBC953-E4E9-49FB-8D84-9AA228FBA4EA",
+      "questionNumber": 19,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "55522FB7-F6A6-405E-AD8A-4B2886D4F1D8",
+          "label": "A",
+          "center": {
+            "x": 0.568548,
+            "y": 0.470924
+          }
+        },
+        {
+          "id": "B784EC10-9FEC-42C9-A49D-1A2FFBAA5C50",
+          "label": "B",
+          "center": {
+            "x": 0.605645,
+            "y": 0.470924
+          }
+        },
+        {
+          "id": "1EEB4F17-BD2D-41A4-A618-AAB4D9E152AF",
+          "label": "C",
+          "center": {
+            "x": 0.642742,
+            "y": 0.470924
+          }
+        },
+        {
+          "id": "42B1FC72-959B-45BE-9E87-95E7DE7B1583",
+          "label": "D",
+          "center": {
+            "x": 0.679839,
+            "y": 0.470924
+          }
+        }
+      ]
+    },
+    {
+      "id": "E211B081-2B56-449F-AF5B-DE02406AA7FD",
+      "questionNumber": 20,
+      "points": 1.0,
+      "choices": [
+        {
+          "id": "DB952B4C-A10F-475D-8B3A-0590AC8B3E3E",
+          "label": "A",
+          "center": {
+            "x": 0.568548,
+            "y": 0.506271
+          }
+        },
+        {
+          "id": "3172E898-579A-45C1-813C-3E6C1F79E1D8",
+          "label": "B",
+          "center": {
+            "x": 0.605645,
+            "y": 0.506271
+          }
+        },
+        {
+          "id": "20B0325E-1594-4F6C-A290-5A8519867293",
+          "label": "C",
+          "center": {
+            "x": 0.642742,
+            "y": 0.506271
+          }
+        },
+        {
+          "id": "A3F68C1B-B91B-46A8-A60D-A3BE6EB62FF3",
+          "label": "D",
+          "center": {
+            "x": 0.679839,
+            "y": 0.506271
+          }
+        }
+      ]
+    }
+  ]
+}
