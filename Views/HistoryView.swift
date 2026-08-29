@@ -40,6 +40,15 @@ struct HistoryView: View {
                 prompt: "ابحث بالاسم أو الرقم"
             )
             .navigationTitle("السجل")
+            .navigationBarItems(
+                trailing:
+                    Button {
+                        showExportAll = true
+                    } label: {
+                        Image(systemName: "square.and.arrow.up")
+                    }
+                    .disabled(resultsStore.results.isEmpty)
+            )
             .sheet(isPresented: $showExportAll) {
                 if let url = CSVExporter().writeToTemporaryFile(
                     results: resultsStore.results,
@@ -55,16 +64,6 @@ struct HistoryView: View {
                         systemImage: "clock.arrow.circlepath",
                         description: Text("نتائج الأوراق الممسوحة ستظهر هنا")
                     )
-                }
-            }
-            .toolbar {
-                ToolbarItem(placement: .automatic) {
-                    Button {
-                        showExportAll = true
-                    } label: {
-                        Image(systemName: "square.and.arrow.up")
-                    }
-                    .disabled(resultsStore.results.isEmpty)
                 }
             }
         }
@@ -104,7 +103,6 @@ struct HistoryView: View {
         }
     }
 }
-
 
 private struct HistoryDetailLoader: View {
     let result: GradeResult
@@ -146,7 +144,6 @@ private struct HistoryDetailLoader: View {
         image = cg
     }
 }
-
 
 #Preview {
     HistoryView()
