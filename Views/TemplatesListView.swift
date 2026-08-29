@@ -17,7 +17,9 @@ struct TemplatesListView: View {
                         TemplateDetailView(template: template)
                     } label: {
                         VStack(alignment: .leading, spacing: 4) {
-                            Text(template.name).font(.headline)
+                            Text(template.name)
+                                .font(.headline)
+
                             Text("\(template.questionGroups.count) سؤال · \(Int(template.totalPoints)) نقطة · حقول: \(template.studentInfoFields.map(\.displayName).joined(separator: ", "))")
                                 .font(.caption)
                                 .foregroundStyle(.secondary)
@@ -28,7 +30,7 @@ struct TemplatesListView: View {
             }
             .navigationTitle("القوالب")
             .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
+                ToolbarItemGroup(placement: .topBarTrailing) {
                     Button {
                         showCreateSheet = true
                     } label: {
@@ -41,9 +43,11 @@ struct TemplatesListView: View {
             }
             .overlay {
                 if templateStore.templates.isEmpty {
-                    ContentUnavailableView("لا توجد قوالب بعد",
-                                            systemImage: "square.grid.2x2",
-                                            description: Text("أنشئ قالباً جديداً بالضغط على +"))
+                    ContentUnavailableView(
+                        "لا توجد قوالب بعد",
+                        systemImage: "square.grid.2x2",
+                        description: Text("أنشئ قالباً جديداً بالضغط على +")
+                    )
                 }
             }
         }
@@ -56,26 +60,45 @@ struct TemplatesListView: View {
     }
 }
 
+
 struct TemplateDetailView: View {
     let template: ScanTemplate
+    
     @EnvironmentObject private var answerKeyStore: AnswerKeyStore
     @State private var showAnswerKeyEditor = false
 
     var body: some View {
         List {
             Section("معلومات") {
-                LabeledContent("عدد الأسئلة", value: "\(template.questionGroups.count)")
-                LabeledContent("مجموع النقاط", value: "\(Int(template.totalPoints))")
-                LabeledContent("عتبة الاسوداد", value: String(format: "%.0f%%", template.fillThreshold * 100))
+                LabeledContent(
+                    "عدد الأسئلة",
+                    value: "\(template.questionGroups.count)"
+                )
+
+                LabeledContent(
+                    "مجموع النقاط",
+                    value: "\(Int(template.totalPoints))"
+                )
+
+                LabeledContent(
+                    "عتبة الاسوداد",
+                    value: String(format: "%.0f%%", template.fillThreshold * 100)
+                )
             }
+
             Section("مفتاح الإجابة") {
                 if let key = answerKeyStore.key(for: template.id) {
                     Text("محفوظ (\(key.correctAnswers.count) إجابة) - \(key.name)")
                 } else {
-                    Text("لا يوجد مفتاح إجابة بعد").foregroundStyle(.secondary)
+                    Text("لا يوجد مفتاح إجابة بعد")
+                        .foregroundStyle(.secondary)
                 }
-                Button("تحرير مفتاح الإجابة") { showAnswerKeyEditor = true }
+
+                Button("تحرير مفتاح الإجابة") {
+                    showAnswerKeyEditor = true
+                }
             }
+
             Section("الحقول النصية") {
                 ForEach(template.studentInfoFields) { field in
                     Text(field.displayName)
@@ -88,6 +111,7 @@ struct TemplateDetailView: View {
         }
     }
 }
+
 
 #Preview {
     TemplatesListView()
