@@ -29,15 +29,6 @@ struct TemplatesListView: View {
                 .onDelete(perform: delete)
             }
             .navigationTitle("القوالب")
-            .toolbar {
-                ToolbarItem(placement: ToolbarItemPlacement.topBarTrailing) {
-                    Button {
-                        showCreateSheet = true
-                    } label: {
-                        Image(systemName: "plus")
-                    }
-                }
-            }
             .sheet(isPresented: $showCreateSheet) {
                 TemplateEditorView()
             }
@@ -48,6 +39,15 @@ struct TemplatesListView: View {
                         systemImage: "square.grid.2x2",
                         description: Text("أنشئ قالباً جديداً بالضغط على +")
                     )
+                }
+            }
+            .toolbar {
+                ToolbarItem(placement: .automatic) {
+                    Button {
+                        showCreateSheet = true
+                    } label: {
+                        Image(systemName: "plus")
+                    }
                 }
             }
         }
