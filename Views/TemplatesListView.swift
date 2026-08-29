@@ -30,7 +30,7 @@ struct TemplatesListView: View {
             }
             .navigationTitle("القوالب")
             .toolbar {
-                ToolbarItemGroup(placement: .topBarTrailing) {
+                ToolbarItem(placement: ToolbarItemPlacement.topBarTrailing) {
                     Button {
                         showCreateSheet = true
                     } label: {
