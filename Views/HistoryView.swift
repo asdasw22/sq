@@ -40,16 +40,6 @@ struct HistoryView: View {
                 prompt: "ابحث بالاسم أو الرقم"
             )
             .navigationTitle("السجل")
-            .toolbar {
-                ToolbarItem(placement: ToolbarItemPlacement.topBarTrailing) {
-                    Button {
-                        showExportAll = true
-                    } label: {
-                        Image(systemName: "square.and.arrow.up")
-                    }
-                    .disabled(resultsStore.results.isEmpty)
-                }
-            }
             .sheet(isPresented: $showExportAll) {
                 if let url = CSVExporter().writeToTemporaryFile(
                     results: resultsStore.results,
@@ -67,24 +57,28 @@ struct HistoryView: View {
                     )
                 }
             }
+            .toolbar {
+                ToolbarItem(placement: .automatic) {
+                    Button {
+                        showExportAll = true
+                    } label: {
+                        Image(systemName: "square.and.arrow.up")
+                    }
+                    .disabled(resultsStore.results.isEmpty)
+                }
+            }
         }
     }
 
     private func row(for result: GradeResult) -> some View {
         HStack {
             VStack(alignment: .leading, spacing: 4) {
-                Text(
-                    result.studentName.isEmpty
-                    ? "بدون اسم"
-                    : result.studentName
-                )
-                .font(.headline)
+                Text(result.studentName.isEmpty ? "بدون اسم" : result.studentName)
+                    .font(.headline)
 
-                Text(
-                    "\(result.studentId.isEmpty ? "—" : result.studentId) · \(result.templateName)"
-                )
-                .font(.caption)
-                .foregroundStyle(.secondary)
+                Text("\(result.studentId.isEmpty ? "—" : result.studentId) · \(result.templateName)")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
             }
 
             Spacer()
@@ -92,9 +86,7 @@ struct HistoryView: View {
             VStack(alignment: .trailing, spacing: 2) {
                 Text("\(result.percentage, specifier: "%.0f")%")
                     .font(.title3.weight(.bold))
-                    .foregroundStyle(
-                        result.percentage >= 50 ? .green : .red
-                    )
+                    .foregroundStyle(result.percentage >= 50 ? .green : .red)
 
                 if result.ambiguousCount > 0 {
                     Image(systemName: "exclamationmark.triangle.fill")
@@ -114,7 +106,6 @@ struct HistoryView: View {
 }
 
 
-/// يحمّل الصورة المصححة المخزّنة على القرص قبل عرض ResultsView
 private struct HistoryDetailLoader: View {
     let result: GradeResult
     
