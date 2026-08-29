@@ -1,0 +1,13 @@
+# Xcode / بناء
+build/
+DerivedData/
+*.xcodeproj
+!project.yml
+Payload/
+dist/
+*.ipa
+
+# macOS
+.DS_Store
+
+# XcodeGen ينتج المشروع تلقائياً من project.yml، فلا حاجة لتتبع .xcodeproj في Git
