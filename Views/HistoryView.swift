@@ -41,7 +41,7 @@ struct HistoryView: View {
             )
             .navigationTitle("السجل")
             .toolbar {
-                ToolbarItemGroup(placement: .topBarTrailing) {
+                ToolbarItem(placement: ToolbarItemPlacement.topBarTrailing) {
                     Button {
                         showExportAll = true
                     } label: {
